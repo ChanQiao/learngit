@@ -3,9 +3,10 @@
 
 class Student(object):
 
-    def __init__(self, name, source):
+    def __init__(self, name, source, sex):
         self.__name = name
         self.__source = source
+        self.__sex = sex
 
     def show_info(self):
         print("name : %s  source : %0.1f" % (self.__name, self.__source))
